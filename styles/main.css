@@ -31,5 +31,30 @@ h3 {
 
 .container {
     max-width: 960px;
-    margin: 20px auto;
+    margin: 20px auto 50px;
+}
+
+/* Main Section */
+main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+main img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* filter: brightness(0.9); */
+}
+
+.img-holder {
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 0.7rem;
+}
+
+.item-holder {
+    width: calc((100%) /3) - 40px);
+    float:left
 }
