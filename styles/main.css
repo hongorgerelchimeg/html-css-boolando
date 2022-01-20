@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-    font-weight: 600;
+    font-weight: 500;
     color: black;
     margin-bottom: 0.3rem;
 }
@@ -35,7 +35,7 @@ h3 {
 
 .container {
     max-width: 960px;
-    margin: 20px auto;
+    margin: 20px auto 50px;
 }
 
 /* Main Section */
@@ -125,6 +125,10 @@ main img {
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     padding-top: 0.2rem;
+}
+
+.solo {
+    margin-left: 0;
 }
 
 .heart {
