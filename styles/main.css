@@ -56,15 +56,21 @@ main img {
 
 .item-holder {
     margin-top: 20px;
+    width: 100%;
 
 }
 
 .item {
-    width: calc(33% - 40px);
+    width: calc(33% - 60px);
+    min-width: 200px;
     float:left;
     position: relative;
     margin-left: 30px;
     margin-top: 20px;
+}
+
+.item:nth-child(3n +_ 2) {
+    margin : 20px 30px 0;
 }
 
 .center-margin {
@@ -72,7 +78,7 @@ main img {
 }
 
 .img-holder {
-    height: 400px;
+    
     overflow: hidden;
     z-index: 2;
 
@@ -81,7 +87,7 @@ main img {
 /* Image Hover */
 
 .img-hover {
-    height: 400px;
+    
     overflow: hidden;
     position: absolute;
     top: 0;
